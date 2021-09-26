@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Instagram Clone</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_information">Register and Happy Shopping</string>
+    <string name="sign_in">Log In</string>
+    <string name="sign_in_information">Sign In to Continue</string>
+    <string name="textEmailAddress">Email Address</string>
+    <string name="textHintEmailAddress">Your Email Address</string>
+    <string name="textHintFullName">Your Full Name</string>
+    <string name="textHintUsername">Your Username</string>
+    <string name="textPassword">Password</string>
+    <string name="textHintPassword">Your Password</string>
+    <string name="textButtonSignIn">Sign In</string>
+    <string name="textSignUpQuestion">Don\'t have an account? Sign Up</string>
+    <string name="textFullName">Full Name</string>
+    <string name="textUsername">Username</string>
+</resources>
