@@ -102,7 +102,7 @@
 
     <Button
         android:id="@+id/buttonSignIn"
-        android:layout_width="315dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="30dp"
         android:text="@string/textButtonSignIn"

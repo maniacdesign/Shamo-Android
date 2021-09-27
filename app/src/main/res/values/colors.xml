@@ -10,5 +10,6 @@
     <color name="colorSecondary">#38ABBE</color>
     <color name="colorAlert">#ED6363</color>
     <color name="colorPrice">#2C96F1</color>
+    <color name="color4">#302F37</color>
 
 </resources>

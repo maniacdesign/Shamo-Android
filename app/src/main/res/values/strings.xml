@@ -11,6 +11,7 @@
     <string name="textPassword">Password</string>
     <string name="textHintPassword">Your Password</string>
     <string name="textButtonSignIn">Sign In</string>
+    <string name="textButtonSignUp">Sign Up</string>
     <string name="textSignUpQuestion">Don\'t have an account? Sign Up</string>
     <string name="textFullName">Full Name</string>
     <string name="textUsername">Username</string>
