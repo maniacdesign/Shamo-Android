@@ -1,4 +1,4 @@
-package com.example.instagramclone
+package com.online.shamo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
