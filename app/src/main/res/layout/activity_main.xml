@@ -137,7 +137,6 @@
                         android:layout_width="215dp"
                         android:layout_height="278dp"
                         android:id="@+id/card_view_shoes"
-                        android:background="#ECEDEF"
                         android:layout_gravity="center"
                         app:cardCornerRadius="20dp">
 
