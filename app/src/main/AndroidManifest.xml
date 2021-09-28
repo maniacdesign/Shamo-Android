@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.instagramclone">
+    package="com.online.shamo">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -10,16 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InstagramClone">
         <activity
-            android:name=".MainActivity"
+            android:name="com.online.shamo.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".SignUpActivity"
+            android:name="com.online.shamo.SignUpActivity"
             android:exported="true" />
         <activity
-            android:name=".SignInActivity"
+            android:name="com.online.shamo.SignInActivity"
             android:exported="true" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name="com.online.shamo.SplashScreenActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>

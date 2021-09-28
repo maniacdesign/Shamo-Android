@@ -1,4 +1,4 @@
-package com.example.instagramclone
+package com.online.shamo
 
 import android.os.Bundle
 import android.widget.Button

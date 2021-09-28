@@ -63,10 +63,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <RelativeLayout
+                <androidx.appcompat.widget.LinearLayoutCompat
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="30dp"
+                    android:orientation="horizontal"
                     tools:ignore="RtlSymmetry">
 
                     <Button
@@ -113,7 +114,7 @@
                         android:text="Running"
                         android:textColor="@color/colorText3"
                         android:textSize="13sp" />
-                </RelativeLayout>
+                </androidx.appcompat.widget.LinearLayoutCompat>
             </HorizontalScrollView>
 
             <androidx.appcompat.widget.AppCompatTextView
@@ -129,16 +130,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <RelativeLayout
+                <androidx.appcompat.widget.LinearLayoutCompat
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="215dp"
                         android:layout_height="278dp"
                         android:id="@+id/card_view_shoes"
-                        android:background="#ECEDEF"
                         android:layout_gravity="center"
+                        android:background="#ECEDEF"
                         app:cardCornerRadius="20dp">
 
                         <androidx.appcompat.widget.LinearLayoutCompat
@@ -147,9 +149,8 @@
                             android:orientation="vertical">
 
                             <androidx.appcompat.widget.AppCompatImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="120dp"
-                                android:paddingTop="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="150dp"
                                 android:src="@drawable/image_shoes"/>
                             <androidx.appcompat.widget.AppCompatTextView
                                 android:layout_width="wrap_content"
@@ -199,7 +200,7 @@
 
                             <androidx.appcompat.widget.AppCompatImageView
                                 android:layout_width="match_parent"
-                                android:layout_height="120dp"
+                                android:layout_height="150dp"
                                 android:paddingTop="30dp"
                                 android:src="@drawable/image_shoes"/>
                             <androidx.appcompat.widget.AppCompatTextView
@@ -237,7 +238,6 @@
                         android:layout_width="215dp"
                         android:layout_height="278dp"
                         android:id="@+id/card_view_shoes3"
-                        android:layout_gravity="center"
                         app:cardCornerRadius="20dp"
                         android:layout_toRightOf="@+id/card_view_shoes2"
                         android:layout_marginStart="30dp">
@@ -249,7 +249,7 @@
 
                             <androidx.appcompat.widget.AppCompatImageView
                                 android:layout_width="match_parent"
-                                android:layout_height="120dp"
+                                android:layout_height="150dp"
                                 android:paddingTop="30dp"
                                 android:src="@drawable/image_shoes"/>
                             <androidx.appcompat.widget.AppCompatTextView
@@ -283,7 +283,7 @@
                                 android:textColor="@color/colorPrice"/>
                         </androidx.appcompat.widget.LinearLayoutCompat>
                     </androidx.cardview.widget.CardView>
-                </RelativeLayout>
+                </androidx.appcompat.widget.LinearLayoutCompat>
             </HorizontalScrollView>
 
             <androidx.appcompat.widget.AppCompatTextView
@@ -295,7 +295,16 @@
                 android:textColor="@color/colorPrimaryText"
                 android:fontFamily="@font/poppins_semi_bold"/>
 
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
 
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/image_shoes"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
         </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.core.widget.NestedScrollView>
 
